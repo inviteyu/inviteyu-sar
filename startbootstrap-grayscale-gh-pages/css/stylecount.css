@@ -21,11 +21,11 @@ body {
   text-align: center;
   font-family: Bangers;
   color: white;
-  font-size: 70px;
-  letter-spacing: 4px;
+  font-size: 35px;
+  letter-spacing: 2px;
 }
 .time-to span {
   display: block;
-  font-size: 100px;
+  font-size: 80px;
   color: red;
 }

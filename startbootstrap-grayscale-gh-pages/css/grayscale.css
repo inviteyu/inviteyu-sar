@@ -238,7 +238,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 100px;
+    padding-top: 250px;
   }
   .download-section {
     padding: 100px 0;
@@ -312,3 +312,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+<style type="text/css">
+ 
+video#bgVideo {
+  position: absolute; // Play the video in full screen mode
+  top: 0px; 
+  left: 0px; 
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; // Put the video behind all other elements
+}
+ 
+@media only screen and (max-width: 768px) {
+  video {
+    display:none;
+  }
+  body{
+    background-image:url("image.png");
+  }
+}
+</style>
