@@ -238,7 +238,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
   .download-section {
     padding: 100px 0;
@@ -315,7 +315,7 @@ body {
 <style type="text/css">
  
 video#bgVideo {
-  position: absolute; // Play the video in full screen mode
+  position: center; // Play the video in full screen mode
   top: 0px; 
   left: 0px; 
   min-width: 100%; 
@@ -323,7 +323,7 @@ video#bgVideo {
   z-index: -1; // Put the video behind all other elements
 }
  
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 100%) {
   video {
     display:none;
   }
